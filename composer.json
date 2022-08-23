@@ -1,0 +1,27 @@
+{
+    "name": "teslya/meta",
+    "description": "This is my test packages.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Teslya\\Meta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikolay Teslya",
+            "email": "kolya.teslya9421@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Teslya\\Meta\\MetaServiceProvider"
+            ],
+            "aliases": {
+                "Meta": "Teslya\\Meta\\Meta"
+            }
+        }
+    }
+}
